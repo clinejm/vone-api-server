@@ -1,0 +1,33 @@
+{
+  "name": "vone-ydoc-server",
+  "version": "1.0.0",
+  "description": "Ydoc server for vone shared documents",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "~8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clinejm/vone-ydoc-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clinejm/vone-ydoc-server/issues"
+  },
+  "homepage": "https://github.com/clinejm/vone-ydoc-server#readme",
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.28.0",
+    "fastify-cors": "^6.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.3.2",
+    "pg": "^8.7.3"
+  }
+}
