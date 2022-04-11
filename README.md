@@ -1,2 +1,2 @@
-# vone-ydoc-server
-Ydoc server for vone shared documents
+# vone-api-server
+api server for vone
